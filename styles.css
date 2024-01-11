@@ -1,0 +1,52 @@
+.title {
+    color: blue;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.career {
+    color: lightblue;
+    text-align: left;
+    font-size: medium;
+}
+
+.career .info {
+    font-size: 1.5rem; 
+}
+
+.career .images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.paragraph2 {
+    color: rgb(42, 140, 193);
+    text-align: left;
+    font-size: medium;
+}
+
+.paragraph2 .info {
+    font-size: 1.5rem;
+}
+
+.paragraph2 .images {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+body{
+    background-color: beige;
+}
+
+.fade-in-text {
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
