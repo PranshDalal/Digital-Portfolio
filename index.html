@@ -3,30 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Your Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="title fade-in-text">
-        <h1>About Me</h1>
-    </div>
-    <div class="career fade-in-text">
-        <h2>Career Goals</h2>
-        <div class="info fade-in-text">
-            <p>Lollipops.  My favorite candy.  I love lollipops so much that my name is Pransh Dalalipop.  My future career goal is to be a software engineer.  I have been interested in programming and computer science since I WAS 10!!  My main plans to achieve these goals are to build lots of projects related to the specific niche of computer science I want to work in, Machine Learning and Artificial Intelligence.  I also want to be able to make an impact in my community with these skills.  This has been my goal for a really long time and the reason I have this goal is because of my dad.  My dad is the one that introduced me to computer and programming.  Ever since that, I was instantly hooked on to this and it quickly became a hobby.</p>
+
+    <header>
+        <h1>Pransh Dalalipop</h1>
+        <p>Developer</p>
+        <img style="width: 300px" src="photo.jpg" alt="">
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <h4>Hi there. I'm a high school freshman from Dublin, California who does computer science.  I like to work on lots of Artificial Intelligence projects in my free time and have a strong passion from coding.  I know this may be a bit controversial, but I think windows is better than mac(strong opinion).</h4>
+        <h3>Career Goals</h3>
+        <ul>
+            <li>Want to be software engineer</li>
+            <li>Achieved by creating lots of Artificial Intelligence Projects</li>
+            <li>Trying to make a big positive impact on my community</li>
+        </ul>
+        <h3>Qualities</h3>
+        <ul>
+            <li>Critical Thinker</li>
+            <li>Problem Solver</li>
+            <li>Hard-worker</li>
+        </ul>
+        <h3>Achievements</h3>
+        <ul>
+            <li>Won trophy at first chess tournament</li>
+            <li>Won many 1st place trophies in karate in-house tournaments</li>
+            <li>One of the most popular clubs started at Fallon(animation club)</li>
+        </ul>
+        <h3>Abilities</h3>
+        <ul>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+        </ul>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3><a href="https://github.com/PranshDalal/Maggie" target="_blank">Personal Artificial Intelligence Assistant</a></h3>
         </div>
-        <div class="images fade-in-text">
-            <img style="width: 300px;" src="career1.jpg" alt="">
+
+        <div class="project">
+            <h3><a href="https://github.com/PranshDalal/EduGamerz---hackathon" target="_blank">EduGamerz - Gamified Learning</a></h3>
         </div>
-    </div>
-    <div class="paragraph2 fade-in-text">
-        <h2>Strengths and qualities</h2>
-        <div class="info fade-in-text">
-            <p>My strengths mainly involve critical thinking and creativeness.  I have always shown a strength for this since elementary school since I was really good at creating beautiful artwork and creative ways to solve something along with being good at mathemathics.  </p>
+
+        <div class="project">
+            <h3><a href="https://github.com/PranshDalal/FaceSong" target="_blank">FaceSong - Plays Song Based On Emotion</a></h3>
         </div>
-        <div class="images fade-in-text">
-            <img src="critical.jpg" alt="">
-        </div>
-    </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
