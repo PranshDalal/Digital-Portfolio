@@ -39,6 +39,7 @@
             overflow: hidden;
             background-color: #444;
             padding: 20px;
+            text-align: center;
         }
 
         .project h3 {
@@ -83,6 +84,24 @@
         .taskbar a:hover {
             background-color: #555;
         }
+
+        .project .img1 {
+            height: 500px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .project .img2 {
+            height: 50%px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+
     </style>
 </head>
 <body>
@@ -99,17 +118,20 @@
     <div class="container" id="projectspage">
         <div class="project">
             <h3><a href="https://github.com/PranshDalal/Maggie" target="_blank">Personal Artificial Intelligence Assistant</a></h3>
+            <img src="maggi.png" alt="">
             <p>A personal AI assistant built to assist with daily tasks and provide information.</p>
         </div>
 
         <div class="project">
             <h3><a href="https://github.com/PranshDalal/EduGamerz---hackathon" target="_blank">EduGamerz - Gamified Learning</a></h3>
-            <p>An educational platform gamifying learning experiences to engage students.</p>
+            <img class="img1" src="Edu.png" alt="">
+            <p>EduGamerz is a gamified learning website dedicated to making learning fun for students.  We quiz students with questions from a dataset of questions and implement them into games such as tic tac toe, crossword, and hangman. </p>
         </div>
 
         <div class="project">
-            <h3><a href="https://github.com/PranshDalal/FaceSong" target="_blank">FaceSong - Plays Song Based On Emotion</a></h3>
-            <p>An application that detects facial expressions and plays music based on the detected emotion.</p>
+            <h3><a href="https://github.com/PranshDalal/StudentVerse" target="_blank">Student Verse - Dropout and College</a></h3>
+            <img class="img2" src="studnet.png" alt="">
+            <p>Student Verse is an application designed to give students and teachers information about college and dropout rates.  This application uses a logistic regression model to predict based on user data if a student will drop and which college they will get into based on their test scores and extracurriculars.</p>
         </div>
     </div>
 
